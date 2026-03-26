@@ -1,0 +1,152 @@
+# SkillRouter
+
+<p align="center">
+  <strong>Retrieve-and-rerank skill selection for LLM agents at ~80K scale.</strong><br/>
+  Public release with benchmark data, evaluation scripts, and open 0.6B models.
+</p>
+
+<p align="center">
+  <img src="assets/readme/pipeline.png" alt="SkillRouter pipeline overview" width="960" />
+</p>
+
+SkillRouter is a practical retrieval system for large skill registries, where many skills look similar at the metadata level but differ in their actual implementation. This repository packages the public evaluation release: the benchmark, the released 0.6B models, and evaluation scripts for reproducing the retrieve-and-rerank pipeline on your own machine.
+
+## Why SkillRouter
+
+Current agent systems usually expose only skill names and descriptions during selection. Our central finding is that this is not enough: the full skill body is the decisive routing signal in large, highly overlapping skill pools.
+
+| At a glance | Value |
+| --- | --- |
+| Candidate pool | ~80K open-source skills |
+| Evaluation set | 75 expert-verified queries |
+| Primary compact system | 0.6B encoder + 0.6B reranker |
+| Main result | 74.0% average Hit@1 |
+| Deployment target | Consumer hardware / local inference |
+
+## Quick Start
+
+### Installation
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+The scripts assume a CUDA-capable local machine. For larger runs, set `CUDA_VISIBLE_DEVICES` before invoking the shell wrappers.
+
+### One-Command Evaluation
+
+```bash
+bash scripts/evaluate_open_models.sh
+```
+
+or:
+
+```bash
+make eval-open-models
+```
+
+This runs the released 0.6B embedding model plus the released 0.6B reranker over the `easy` and `hard` benchmark tiers and writes:
+
+- retrieval outputs to `outputs/open_model_eval/retrieval/`
+- reranked outputs to `outputs/open_model_eval/reranked/`
+- summary metrics to `outputs/open_model_eval/summary.json`
+
+If you want to use local checkpoints instead of the default Hugging Face repo IDs:
+
+```bash
+SKILLROUTER_EMB_MODEL_OR_PATH=/path/to/SkillRouter-Embedding-0.6B \
+SKILLROUTER_RERANK_MODEL_OR_PATH=/path/to/SkillRouter-Reranker-0.6B \
+bash scripts/evaluate_open_models.sh
+```
+
+## Evaluate a Custom Model
+
+### Retrieval Only
+
+1. Export predictions:
+
+```bash
+python3 -m src.export_retrieval \
+  --encoder_model_or_path /path/to/your/encoder \
+  --data_root data/eval_core \
+  --output_dir outputs/custom_eval \
+  --tiers easy hard
+```
+
+The default export keeps top-50 candidates.
+
+2. Score one tier:
+
+```bash
+bash scripts/evaluate_predictions.sh \
+  --predictions outputs/custom_eval/retrieval/easy.json \
+  --tier easy
+```
+
+### Retrieval + Rerank Pipeline
+
+```bash
+python3 -m src.run_open_model_eval \
+  --data_root data/eval_core \
+  --encoder_model_or_path /path/to/your/encoder \
+  --reranker_model_or_path /path/to/your/reranker \
+  --tiers easy hard \
+  --output_dir outputs/custom_pipeline_eval
+```
+
+The default pipeline reranks the top-20 retrieval candidates with `flat-full` prompts.
+
+## Benchmark and Data
+
+This release includes the evaluation benchmark as GitHub-friendly `jsonl.gz` shards. All evaluation code in [src/](src/) accepts either a single JSONL file or a directory of `jsonl` or `jsonl.gz` shards.
+
+- [Evaluation benchmark](data/eval_core/README.md): benchmark tasks, graded relevance labels, and the two benchmark tiers.
+- [Evaluation protocol](evaluation/README.md): prediction format and metric definitions.
+
+For the released benchmark:
+
+- use `tasks.jsonl` as the query set
+- use `relevance.json` as ground truth and graded relevance
+- skip `generic_only` tasks during scoring
+- report predictions as a JSON map from `task_id` to ranked `skill_id` list
+
+## Repository Layout
+
+```text
+.
+├── README.md
+├── assets/
+│   └── readme/
+├── data/
+│   └── eval_core/
+├── evaluation/
+├── manifests/
+├── scripts/
+└── src/
+```
+
+## Data Sources and Attribution
+
+The public evaluation release in this repository builds on upstream open-source resources. Please also acknowledge the original data sources when using the benchmark:
+
+- Ground-truth queries and ground-truth skills for evaluation are derived from [benchflow-ai/skillsbench](https://github.com/benchflow-ai/skillsbench).
+- The benchmark skill pool is derived from [majiayu000/claude-skill-registry](https://github.com/majiayu000/claude-skill-registry).
+
+## Paper and Citation
+
+Paper: [SkillRouter: Retrieve-and-Rerank Skill Selection for LLM Agents at Scale](https://arxiv.org/abs/2603.22455)
+
+If you use this repository, benchmark, or released models in your work, please cite:
+
+```bibtex
+@misc{zheng2026skillrouter,
+  doi = {10.48550/ARXIV.2603.22455},
+  url = {https://arxiv.org/abs/2603.22455},
+  author = {Zheng, YanZhao and Zhang, ZhenTao and Ma, Chao and Yu, YuanQiang and Zhu, JiHuan and Dong, Baohua and Zhu, Hangcheng},
+  title = {{SkillRouter}: Retrieve-and-Rerank Skill Selection for LLM Agents at Scale},
+  publisher = {arXiv},
+  year = {2026}
+}
+```

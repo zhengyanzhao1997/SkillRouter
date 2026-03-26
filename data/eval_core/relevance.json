@@ -1,0 +1,2035 @@
+{
+  "3d-scan-calc": {
+    "gt_skill_ids": [
+      "gt/mesh-analysis"
+    ],
+    "relevance": {
+      "gt/mesh-analysis": 3,
+      "degraded/mesh-analysis_steps-removed_162": 1,
+      "degraded/mesh-analysis_constraints-corrupted_163": 1
+    },
+    "core_gt_ids": [
+      "gt/mesh-analysis"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "adaptive-cruise-control": {
+    "gt_skill_ids": [
+      "gt/csv-processing",
+      "gt/pid-controller",
+      "gt/simulation-metrics",
+      "gt/vehicle-dynamics",
+      "gt/yaml-config"
+    ],
+    "relevance": {
+      "gt/csv-processing": 3,
+      "gt/pid-controller": 3,
+      "gt/simulation-metrics": 3,
+      "gt/vehicle-dynamics": 3,
+      "gt/yaml-config": 3,
+      "degraded/csv-processing_steps-removed_27": 1,
+      "degraded/csv-processing_constraints-corrupted_28": 1,
+      "degraded/pid-controller_steps-removed_214": 1,
+      "degraded/pid-controller_constraints-corrupted_215": 1,
+      "degraded/simulation-metrics_steps-removed_278": 1,
+      "degraded/simulation-metrics_constraints-corrupted_279": 1,
+      "degraded/vehicle-dynamics_steps-removed_338": 1,
+      "degraded/vehicle-dynamics_constraints-corrupted_339": 1,
+      "degraded/yaml-config_constraints-corrupted_352": 1
+    },
+    "core_gt_ids": [
+      "gt/csv-processing",
+      "gt/pid-controller",
+      "gt/simulation-metrics",
+      "gt/vehicle-dynamics",
+      "gt/yaml-config"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "azure-bgp-oscillation-route-leak": {
+    "gt_skill_ids": [
+      "gt/azure-bgp"
+    ],
+    "relevance": {
+      "gt/azure-bgp": 3,
+      "degraded/azure-bgp_steps-removed_12": 1,
+      "degraded/azure-bgp_constraints-corrupted_13": 1
+    },
+    "core_gt_ids": [
+      "gt/azure-bgp"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "citation-check": {
+    "gt_skill_ids": [
+      "gt/citation-management"
+    ],
+    "relevance": {
+      "gt/citation-management": 3,
+      "degraded/citation-management_steps-removed_22": 1
+    },
+    "core_gt_ids": [
+      "gt/citation-management"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "civ6-adjacency-optimizer": {
+    "gt_skill_ids": [
+      "gt/civ6lib",
+      "gt/hex-grid-spatial",
+      "gt/map-optimization-strategy",
+      "gt/sqlite-map-parser"
+    ],
+    "relevance": {
+      "gt/civ6lib": 3,
+      "gt/hex-grid-spatial": 3,
+      "gt/map-optimization-strategy": 3,
+      "gt/sqlite-map-parser": 3,
+      "degraded/civ6lib_steps-removed_56": 1,
+      "degraded/civ6lib_constraints-corrupted_57": 1,
+      "degraded/hex-grid-spatial_constraints-corrupted_123": 1,
+      "degraded/map-optimization-strategy_steps-removed_146": 1,
+      "degraded/map-optimization-strategy_constraints-corrupted_147": 1,
+      "degraded/sqlite-map-parser_steps-removed_304": 1,
+      "degraded/sqlite-map-parser_constraints-corrupted_305": 1
+    },
+    "core_gt_ids": [
+      "gt/civ6lib",
+      "gt/hex-grid-spatial",
+      "gt/map-optimization-strategy",
+      "gt/sqlite-map-parser"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "court-form-filling": {
+    "gt_skill_ids": [
+      "gt/pdf"
+    ],
+    "relevance": {
+      "gt/pdf": 3,
+      "degraded/pdf_steps-removed_213": 1
+    },
+    "core_gt_ids": [],
+    "auxiliary_gt_ids": [
+      "gt/pdf"
+    ],
+    "task_type": "generic_only"
+  },
+  "crystallographic-wyckoff-position-analysis": {
+    "gt_skill_ids": [
+      "gt/pymatgen",
+      "gt/sympy"
+    ],
+    "relevance": {
+      "gt/pymatgen": 3,
+      "gt/sympy": 3,
+      "degraded/pymatgen_steps-removed_225": 1,
+      "degraded/pymatgen_constraints-corrupted_226": 1,
+      "degraded/sympy_steps-removed_316": 1,
+      "degraded/sympy_constraints-corrupted_317": 1
+    },
+    "core_gt_ids": [
+      "gt/pymatgen",
+      "gt/sympy"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "dapt-intrusion-detection": {
+    "gt_skill_ids": [
+      "gt/pcap-analysis",
+      "gt/threat-detection"
+    ],
+    "relevance": {
+      "gt/pcap-analysis": 3,
+      "gt/threat-detection": 3,
+      "degraded/pcap-analysis_steps-removed_206": 1,
+      "degraded/pcap-analysis_constraints-corrupted_207": 1,
+      "degraded/threat-detection_steps-removed_324": 1,
+      "degraded/threat-detection_constraints-corrupted_325": 1
+    },
+    "core_gt_ids": [
+      "gt/pcap-analysis",
+      "gt/threat-detection"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "data-to-d3": {
+    "gt_skill_ids": [
+      "gt/d3-visualization"
+    ],
+    "relevance": {
+      "gt/d3-visualization": 3,
+      "degraded/d3-visualization_steps-removed_43": 1
+    },
+    "core_gt_ids": [
+      "gt/d3-visualization"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "dialogue-parser": {
+    "gt_skill_ids": [
+      "gt/dialogue_graph"
+    ],
+    "relevance": {
+      "gt/dialogue_graph": 3,
+      "degraded/dialogue_graph_steps-removed_33": 1,
+      "degraded/dialogue_graph_constraints-corrupted_34": 1
+    },
+    "core_gt_ids": [
+      "gt/dialogue_graph"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "dynamic-object-aware-egomotion": {
+    "gt_skill_ids": [
+      "gt/dyn-object-masks",
+      "gt/egomotion-estimation",
+      "gt/output-validation",
+      "gt/sampling-and-indexing"
+    ],
+    "relevance": {
+      "gt/dyn-object-masks": 3,
+      "gt/egomotion-estimation": 3,
+      "gt/output-validation": 3,
+      "gt/sampling-and-indexing": 3,
+      "degraded/egomotion-estimation_steps-removed_48": 1,
+      "degraded/egomotion-estimation_constraints-corrupted_49": 1,
+      "degraded/dyn-object-masks_steps-removed_50": 1,
+      "degraded/dyn-object-masks_constraints-corrupted_51": 1,
+      "degraded/output-validation_steps-removed_190": 1,
+      "degraded/output-validation_constraints-corrupted_191": 1,
+      "degraded/sampling-and-indexing_steps-removed_255": 1
+    },
+    "core_gt_ids": [
+      "gt/dyn-object-masks",
+      "gt/egomotion-estimation",
+      "gt/output-validation",
+      "gt/sampling-and-indexing"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "earthquake-phase-association": {
+    "gt_skill_ids": [
+      "gt/gamma-phase-associator",
+      "gt/licenses",
+      "gt/obspy-data-api",
+      "gt/seisbench-model-api",
+      "gt/seismic-picker-selection"
+    ],
+    "relevance": {
+      "gt/gamma-phase-associator": 3,
+      "gt/licenses": 3,
+      "gt/obspy-data-api": 3,
+      "gt/seisbench-model-api": 3,
+      "gt/seismic-picker-selection": 3,
+      "degraded/gamma-phase-associator_steps-removed_104": 1,
+      "degraded/licenses_steps-removed_132": 1,
+      "degraded/obspy-data-api_steps-removed_198": 1,
+      "degraded/obspy-data-api_constraints-corrupted_199": 1,
+      "degraded/seisbench-model-api_steps-removed_284": 1,
+      "degraded/seisbench-model-api_constraints-corrupted_285": 1,
+      "degraded/seismic-picker-selection_steps-removed_286": 1,
+      "degraded/seismic-picker-selection_constraints-corrupted_287": 1
+    },
+    "core_gt_ids": [
+      "gt/gamma-phase-associator",
+      "gt/obspy-data-api",
+      "gt/seisbench-model-api",
+      "gt/seismic-picker-selection"
+    ],
+    "auxiliary_gt_ids": [
+      "gt/licenses"
+    ],
+    "task_type": "mixed"
+  },
+  "earthquake-plate-calculation": {
+    "gt_skill_ids": [
+      "gt/geospatial-analysis"
+    ],
+    "relevance": {
+      "gt/geospatial-analysis": 3,
+      "degraded/geospatial-analysis_steps-removed_107": 1,
+      "degraded/geospatial-analysis_constraints-corrupted_108": 1
+    },
+    "core_gt_ids": [
+      "gt/geospatial-analysis"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "econ-detrending-correlation": {
+    "gt_skill_ids": [
+      "gt/timeseries-detrending"
+    ],
+    "relevance": {
+      "gt/timeseries-detrending": 3,
+      "degraded/timeseries-detrending_steps-removed_330": 1,
+      "degraded/timeseries-detrending_constraints-corrupted_331": 1
+    },
+    "core_gt_ids": [
+      "gt/timeseries-detrending"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "energy-ac-optimal-power-flow": {
+    "gt_skill_ids": [
+      "gt/ac-branch-pi-model",
+      "gt/casadi-ipopt-nlp",
+      "gt/power-flow-data"
+    ],
+    "relevance": {
+      "gt/ac-branch-pi-model": 3,
+      "gt/casadi-ipopt-nlp": 3,
+      "gt/power-flow-data": 3,
+      "degraded/casadi-ipopt-nlp_steps-removed_19": 1,
+      "degraded/power-flow-data_constraints-corrupted_218": 1
+    },
+    "core_gt_ids": [
+      "gt/ac-branch-pi-model",
+      "gt/casadi-ipopt-nlp",
+      "gt/power-flow-data"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "energy-market-pricing": {
+    "gt_skill_ids": [
+      "gt/dc-power-flow",
+      "gt/economic-dispatch",
+      "gt/locational-marginal-prices",
+      "gt/power-flow-data"
+    ],
+    "relevance": {
+      "gt/dc-power-flow": 3,
+      "gt/economic-dispatch": 3,
+      "gt/locational-marginal-prices": 3,
+      "gt/power-flow-data": 3,
+      "degraded/economic-dispatch_steps-removed_60": 1,
+      "degraded/economic-dispatch_constraints-corrupted_61": 1,
+      "degraded/dc-power-flow_steps-removed_80": 1,
+      "degraded/dc-power-flow_constraints-corrupted_81": 1,
+      "degraded/locational-marginal-prices_steps-removed_150": 1,
+      "degraded/locational-marginal-prices_constraints-corrupted_151": 1,
+      "degraded/power-flow-data_constraints-corrupted_218": 1
+    },
+    "core_gt_ids": [
+      "gt/dc-power-flow",
+      "gt/economic-dispatch",
+      "gt/locational-marginal-prices",
+      "gt/power-flow-data"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "enterprise-information-search": {
+    "gt_skill_ids": [
+      "gt/enterprise-artifact-search"
+    ],
+    "relevance": {
+      "gt/enterprise-artifact-search": 3,
+      "degraded/enterprise-artifact-search_steps-removed_58": 1,
+      "degraded/enterprise-artifact-search_constraints-corrupted_59": 1
+    },
+    "core_gt_ids": [
+      "gt/enterprise-artifact-search"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "exceltable-in-ppt": {
+    "gt_skill_ids": [
+      "gt/pptx",
+      "gt/xlsx"
+    ],
+    "relevance": {
+      "gt/pptx": 3,
+      "gt/xlsx": 3,
+      "degraded/pptx_steps-removed_216": 1,
+      "degraded/pptx_constraints-corrupted_217": 1,
+      "degraded/xlsx_steps-removed_356": 1,
+      "degraded/xlsx_constraints-corrupted_357": 1
+    },
+    "core_gt_ids": [],
+    "auxiliary_gt_ids": [
+      "gt/pptx",
+      "gt/xlsx"
+    ],
+    "task_type": "generic_only"
+  },
+  "exoplanet-detection-period": {
+    "gt_skill_ids": [
+      "gt/box-least-squares",
+      "gt/exoplanet-workflows",
+      "gt/light-curve-preprocessing",
+      "gt/lomb-scargle-periodogram",
+      "gt/transit-least-squares"
+    ],
+    "relevance": {
+      "gt/box-least-squares": 3,
+      "gt/exoplanet-workflows": 3,
+      "gt/light-curve-preprocessing": 3,
+      "gt/lomb-scargle-periodogram": 3,
+      "gt/transit-least-squares": 3,
+      "degraded/exoplanet-workflows_steps-removed_70": 1,
+      "degraded/exoplanet-workflows_constraints-corrupted_71": 1,
+      "degraded/lomb-scargle-periodogram_steps-removed_152": 1,
+      "degraded/lomb-scargle-periodogram_constraints-corrupted_153": 1,
+      "degraded/light-curve-preprocessing_steps-removed_156": 1,
+      "degraded/light-curve-preprocessing_constraints-corrupted_157": 1,
+      "degraded/transit-least-squares_steps-removed_342": 1,
+      "degraded/transit-least-squares_constraints-corrupted_343": 1
+    },
+    "core_gt_ids": [
+      "gt/box-least-squares",
+      "gt/exoplanet-workflows",
+      "gt/light-curve-preprocessing",
+      "gt/lomb-scargle-periodogram",
+      "gt/transit-least-squares"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "financial-modeling-qa": {
+    "gt_skill_ids": [
+      "gt/pdf",
+      "gt/xlsx"
+    ],
+    "relevance": {
+      "gt/pdf": 3,
+      "gt/xlsx": 3,
+      "degraded/pdf_steps-removed_213": 1,
+      "degraded/xlsx_steps-removed_356": 1,
+      "degraded/xlsx_constraints-corrupted_357": 1
+    },
+    "core_gt_ids": [],
+    "auxiliary_gt_ids": [
+      "gt/pdf",
+      "gt/xlsx"
+    ],
+    "task_type": "generic_only"
+  },
+  "find-topk-similiar-chemicals": {
+    "gt_skill_ids": [
+      "gt/pdf",
+      "gt/pubchem-database",
+      "gt/rdkit"
+    ],
+    "relevance": {
+      "gt/pdf": 3,
+      "gt/pubchem-database": 3,
+      "gt/rdkit": 3,
+      "degraded/pdf_steps-removed_213": 1,
+      "degraded/pubchem-database_steps-removed_221": 1,
+      "degraded/pubchem-database_constraints-corrupted_222": 1,
+      "degraded/rdkit_steps-removed_239": 1,
+      "degraded/rdkit_constraints-corrupted_240": 1
+    },
+    "core_gt_ids": [
+      "gt/pubchem-database",
+      "gt/rdkit"
+    ],
+    "auxiliary_gt_ids": [
+      "gt/pdf"
+    ],
+    "task_type": "mixed"
+  },
+  "fix-build-agentops": {
+    "gt_skill_ids": [
+      "gt/analyze-ci",
+      "gt/temporal-python-testing",
+      "gt/testing-python",
+      "gt/uv-package-manager"
+    ],
+    "relevance": {
+      "gt/analyze-ci": 3,
+      "gt/temporal-python-testing": 3,
+      "gt/testing-python": 3,
+      "gt/uv-package-manager": 3,
+      "degraded/analyze-ci_steps-removed_0": 1,
+      "degraded/analyze-ci_constraints-corrupted_1": 1,
+      "degraded/temporal-python-testing_steps-removed_314": 1,
+      "degraded/temporal-python-testing_constraints-corrupted_315": 1,
+      "degraded/testing-python_steps-removed_320": 1,
+      "degraded/testing-python_constraints-corrupted_321": 1,
+      "degraded/uv-package-manager_steps-removed_334": 1,
+      "degraded/uv-package-manager_constraints-corrupted_335": 1
+    },
+    "core_gt_ids": [
+      "gt/analyze-ci",
+      "gt/temporal-python-testing",
+      "gt/testing-python",
+      "gt/uv-package-manager"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "fix-build-google-auto": {
+    "gt_skill_ids": [
+      "gt/maven-build-lifecycle",
+      "gt/maven-dependency-management",
+      "gt/maven-plugin-configuration"
+    ],
+    "relevance": {
+      "gt/maven-build-lifecycle": 3,
+      "gt/maven-dependency-management": 3,
+      "gt/maven-plugin-configuration": 3,
+      "degraded/maven-build-lifecycle_steps-removed_164": 1,
+      "degraded/maven-build-lifecycle_constraints-corrupted_165": 1,
+      "degraded/maven-dependency-management_steps-removed_174": 1,
+      "degraded/maven-dependency-management_constraints-corrupted_175": 1,
+      "degraded/maven-plugin-configuration_steps-removed_180": 1,
+      "degraded/maven-plugin-configuration_constraints-corrupted_181": 1
+    },
+    "core_gt_ids": [
+      "gt/maven-build-lifecycle",
+      "gt/maven-dependency-management",
+      "gt/maven-plugin-configuration"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "fix-druid-loophole-cve": {
+    "gt_skill_ids": [
+      "gt/jackson-security",
+      "gt/senior-java"
+    ],
+    "relevance": {
+      "gt/jackson-security": 3,
+      "gt/senior-java": 3,
+      "degraded/jackson-security_steps-removed_128": 1,
+      "degraded/jackson-security_constraints-corrupted_129": 1,
+      "degraded/senior-java_steps-removed_290": 1,
+      "degraded/senior-java_constraints-corrupted_291": 1
+    },
+    "core_gt_ids": [
+      "gt/jackson-security",
+      "gt/senior-java"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "fix-erlang-ssh-cve": {
+    "gt_skill_ids": [
+      "gt/erlang-concurrency",
+      "gt/erlang-distribution",
+      "gt/erlang-otp-behaviors",
+      "gt/find-bugs",
+      "gt/senior-security",
+      "gt/ssh-penetration-testing"
+    ],
+    "relevance": {
+      "gt/erlang-concurrency": 3,
+      "gt/erlang-distribution": 3,
+      "gt/erlang-otp-behaviors": 3,
+      "gt/find-bugs": 3,
+      "gt/senior-security": 3,
+      "gt/ssh-penetration-testing": 3,
+      "degraded/erlang-concurrency_steps-removed_62": 1,
+      "degraded/erlang-concurrency_constraints-corrupted_63": 1,
+      "degraded/erlang-distribution_steps-removed_64": 1,
+      "degraded/erlang-distribution_constraints-corrupted_65": 1,
+      "degraded/erlang-otp-behaviors_steps-removed_76": 1,
+      "degraded/erlang-otp-behaviors_constraints-corrupted_77": 1,
+      "degraded/find-bugs_steps-removed_90": 1,
+      "degraded/find-bugs_constraints-corrupted_91": 1,
+      "degraded/senior-security_steps-removed_288": 1,
+      "degraded/senior-security_constraints-corrupted_289": 1,
+      "degraded/ssh-penetration-testing_steps-removed_306": 1,
+      "degraded/ssh-penetration-testing_constraints-corrupted_307": 1
+    },
+    "core_gt_ids": [
+      "gt/erlang-concurrency",
+      "gt/erlang-distribution",
+      "gt/erlang-otp-behaviors",
+      "gt/find-bugs",
+      "gt/senior-security",
+      "gt/ssh-penetration-testing"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "fix-visual-stability": {
+    "gt_skill_ids": [
+      "gt/browser-testing",
+      "gt/react-best-practices",
+      "gt/web-interface-guidelines"
+    ],
+    "relevance": {
+      "gt/browser-testing": 3,
+      "gt/react-best-practices": 3,
+      "gt/web-interface-guidelines": 3,
+      "degraded/browser-testing_steps-removed_15": 1,
+      "degraded/browser-testing_constraints-corrupted_16": 1,
+      "degraded/react-best-practices_steps-removed_245": 1,
+      "degraded/react-best-practices_constraints-corrupted_246": 1,
+      "degraded/web-interface-guidelines_steps-removed_346": 1,
+      "degraded/web-interface-guidelines_constraints-corrupted_347": 1
+    },
+    "core_gt_ids": [
+      "gt/browser-testing",
+      "gt/react-best-practices",
+      "gt/web-interface-guidelines"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "flink-query": {
+    "gt_skill_ids": [
+      "gt/pdf",
+      "gt/senior-data-engineer"
+    ],
+    "relevance": {
+      "gt/pdf": 3,
+      "gt/senior-data-engineer": 3,
+      "degraded/pdf_steps-removed_213": 1,
+      "degraded/senior-data-engineer_steps-removed_292": 1,
+      "degraded/senior-data-engineer_constraints-corrupted_293": 1
+    },
+    "core_gt_ids": [
+      "gt/senior-data-engineer"
+    ],
+    "auxiliary_gt_ids": [
+      "gt/pdf"
+    ],
+    "task_type": "mixed"
+  },
+  "flood-risk-analysis": {
+    "gt_skill_ids": [
+      "gt/flood-detection",
+      "gt/nws-flood-thresholds",
+      "gt/usgs-data-download"
+    ],
+    "relevance": {
+      "gt/flood-detection": 3,
+      "gt/nws-flood-thresholds": 3,
+      "gt/usgs-data-download": 3,
+      "degraded/flood-detection_steps-removed_99": 1,
+      "degraded/flood-detection_constraints-corrupted_100": 1,
+      "degraded/nws-flood-thresholds_steps-removed_182": 1,
+      "degraded/nws-flood-thresholds_constraints-corrupted_183": 1,
+      "degraded/usgs-data-download_steps-removed_332": 1,
+      "degraded/usgs-data-download_constraints-corrupted_333": 1
+    },
+    "core_gt_ids": [
+      "gt/flood-detection",
+      "gt/nws-flood-thresholds",
+      "gt/usgs-data-download"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "gh-repo-analytics": {
+    "gt_skill_ids": [
+      "gt/gh-cli"
+    ],
+    "relevance": {
+      "gt/gh-cli": 3,
+      "degraded/gh-cli_steps-removed_115": 1,
+      "degraded/gh-cli_constraints-corrupted_116": 1
+    },
+    "core_gt_ids": [
+      "gt/gh-cli"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "glm-lake-mendota": {
+    "gt_skill_ids": [
+      "gt/glm-basics",
+      "gt/glm-calibration",
+      "gt/glm-output"
+    ],
+    "relevance": {
+      "gt/glm-basics": 3,
+      "gt/glm-calibration": 3,
+      "gt/glm-output": 3,
+      "degraded/glm-basics_steps-removed_109": 1,
+      "degraded/glm-basics_constraints-corrupted_110": 1,
+      "degraded/glm-calibration_steps-removed_111": 1,
+      "degraded/glm-calibration_constraints-corrupted_112": 1,
+      "degraded/glm-output_steps-removed_113": 1,
+      "degraded/glm-output_constraints-corrupted_114": 1
+    },
+    "core_gt_ids": [
+      "gt/glm-basics",
+      "gt/glm-calibration",
+      "gt/glm-output"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "gravitational-wave-detection": {
+    "gt_skill_ids": [
+      "gt/conditioning",
+      "gt/matched-filtering"
+    ],
+    "relevance": {
+      "gt/conditioning": 3,
+      "gt/matched-filtering": 3,
+      "degraded/conditioning_steps-removed_23": 1,
+      "degraded/conditioning_constraints-corrupted_24": 1,
+      "degraded/matched-filtering_steps-removed_158": 1,
+      "degraded/matched-filtering_constraints-corrupted_159": 1
+    },
+    "core_gt_ids": [
+      "gt/conditioning",
+      "gt/matched-filtering"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "grid-dispatch-operator": {
+    "gt_skill_ids": [
+      "gt/dc-power-flow",
+      "gt/economic-dispatch",
+      "gt/power-flow-data"
+    ],
+    "relevance": {
+      "gt/dc-power-flow": 3,
+      "gt/economic-dispatch": 3,
+      "gt/power-flow-data": 3,
+      "degraded/economic-dispatch_steps-removed_60": 1,
+      "degraded/economic-dispatch_constraints-corrupted_61": 1,
+      "degraded/dc-power-flow_steps-removed_80": 1,
+      "degraded/dc-power-flow_constraints-corrupted_81": 1,
+      "degraded/power-flow-data_constraints-corrupted_218": 1
+    },
+    "core_gt_ids": [
+      "gt/dc-power-flow",
+      "gt/economic-dispatch",
+      "gt/power-flow-data"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "hvac-control": {
+    "gt_skill_ids": [
+      "gt/excitation-signal-design",
+      "gt/first-order-model-fitting",
+      "gt/imc-tuning-rules",
+      "gt/safety-interlocks",
+      "gt/scipy-curve-fit"
+    ],
+    "relevance": {
+      "gt/excitation-signal-design": 3,
+      "gt/first-order-model-fitting": 3,
+      "gt/imc-tuning-rules": 3,
+      "gt/safety-interlocks": 3,
+      "gt/scipy-curve-fit": 3,
+      "degraded/excitation-signal-design_steps-removed_66": 1,
+      "degraded/excitation-signal-design_constraints-corrupted_67": 1,
+      "degraded/first-order-model-fitting_constraints-corrupted_96": 1,
+      "degraded/imc-tuning-rules_steps-removed_130": 1,
+      "degraded/imc-tuning-rules_constraints-corrupted_131": 1,
+      "degraded/safety-interlocks_steps-removed_266": 1,
+      "degraded/safety-interlocks_constraints-corrupted_267": 1,
+      "degraded/scipy-curve-fit_steps-removed_272": 1,
+      "degraded/scipy-curve-fit_constraints-corrupted_273": 1
+    },
+    "core_gt_ids": [
+      "gt/excitation-signal-design",
+      "gt/first-order-model-fitting",
+      "gt/imc-tuning-rules",
+      "gt/safety-interlocks",
+      "gt/scipy-curve-fit"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "invoice-fraud-detection": {
+    "gt_skill_ids": [
+      "gt/fuzzy-match",
+      "gt/pdf",
+      "gt/xlsx"
+    ],
+    "relevance": {
+      "gt/fuzzy-match": 3,
+      "gt/pdf": 3,
+      "gt/xlsx": 3,
+      "degraded/pdf_steps-removed_213": 1,
+      "degraded/xlsx_steps-removed_356": 1,
+      "degraded/xlsx_constraints-corrupted_357": 1
+    },
+    "core_gt_ids": [
+      "gt/fuzzy-match"
+    ],
+    "auxiliary_gt_ids": [
+      "gt/pdf",
+      "gt/xlsx"
+    ],
+    "task_type": "mixed"
+  },
+  "jax-computing-basics": {
+    "gt_skill_ids": [
+      "gt/jax-skills"
+    ],
+    "relevance": {
+      "gt/jax-skills": 3,
+      "degraded/jax-skills_steps-removed_136": 1,
+      "degraded/jax-skills_constraints-corrupted_137": 1
+    },
+    "core_gt_ids": [
+      "gt/jax-skills"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "jpg-ocr-stat": {
+    "gt_skill_ids": [
+      "gt/image-ocr",
+      "gt/openai-vision",
+      "gt/pdf",
+      "gt/video-frame-extraction",
+      "gt/xlsx"
+    ],
+    "relevance": {
+      "gt/image-ocr": 3,
+      "gt/openai-vision": 3,
+      "gt/pdf": 3,
+      "gt/video-frame-extraction": 3,
+      "gt/xlsx": 3,
+      "degraded/image-ocr_steps-removed_127": 1,
+      "degraded/openai-vision_steps-removed_204": 1,
+      "degraded/openai-vision_constraints-corrupted_205": 1,
+      "degraded/pdf_steps-removed_213": 1,
+      "degraded/video-frame-extraction_steps-removed_340": 1,
+      "degraded/video-frame-extraction_constraints-corrupted_341": 1,
+      "degraded/xlsx_steps-removed_356": 1,
+      "degraded/xlsx_constraints-corrupted_357": 1
+    },
+    "core_gt_ids": [
+      "gt/image-ocr",
+      "gt/openai-vision",
+      "gt/video-frame-extraction"
+    ],
+    "auxiliary_gt_ids": [
+      "gt/pdf",
+      "gt/xlsx"
+    ],
+    "task_type": "mixed"
+  },
+  "lab-unit-harmonization": {
+    "gt_skill_ids": [
+      "gt/lab-unit-harmonization"
+    ],
+    "relevance": {
+      "gt/lab-unit-harmonization": 3
+    },
+    "core_gt_ids": [
+      "gt/lab-unit-harmonization"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "lake-warming-attribution": {
+    "gt_skill_ids": [
+      "gt/contribution-analysis",
+      "gt/meteorology-driver-classification",
+      "gt/pca-decomposition",
+      "gt/trend-analysis"
+    ],
+    "relevance": {
+      "gt/contribution-analysis": 3,
+      "gt/meteorology-driver-classification": 3,
+      "gt/pca-decomposition": 3,
+      "gt/trend-analysis": 3,
+      "degraded/contribution-analysis_steps-removed_25": 1,
+      "degraded/contribution-analysis_constraints-corrupted_26": 1,
+      "degraded/meteorology-driver-classification_steps-removed_160": 1,
+      "degraded/meteorology-driver-classification_constraints-corrupted_161": 1,
+      "degraded/pca-decomposition_steps-removed_208": 1,
+      "degraded/pca-decomposition_constraints-corrupted_209": 1,
+      "degraded/trend-analysis_steps-removed_328": 1,
+      "degraded/trend-analysis_constraints-corrupted_329": 1
+    },
+    "core_gt_ids": [
+      "gt/contribution-analysis",
+      "gt/meteorology-driver-classification",
+      "gt/pca-decomposition",
+      "gt/trend-analysis"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "latex-formula-extraction": {
+    "gt_skill_ids": [
+      "gt/marker",
+      "gt/pdf"
+    ],
+    "relevance": {
+      "gt/marker": 3,
+      "gt/pdf": 3,
+      "degraded/marker_steps-removed_138": 1,
+      "degraded/marker_constraints-corrupted_139": 1,
+      "degraded/pdf_steps-removed_213": 1
+    },
+    "core_gt_ids": [
+      "gt/marker"
+    ],
+    "auxiliary_gt_ids": [
+      "gt/pdf"
+    ],
+    "task_type": "mixed"
+  },
+  "lean4-proof": {
+    "gt_skill_ids": [
+      "gt/INSTALLATION.md",
+      "gt/LICENSE",
+      "gt/README.md",
+      "gt/TESTING.md",
+      "gt/lean4-memories",
+      "gt/lean4-theorem-proving"
+    ],
+    "relevance": {
+      "gt/INSTALLATION.md": 3,
+      "gt/LICENSE": 3,
+      "gt/README.md": 3,
+      "gt/TESTING.md": 3,
+      "gt/lean4-memories": 3,
+      "gt/lean4-theorem-proving": 3,
+      "degraded/LICENSE_steps-removed_4": 1,
+      "degraded/LICENSE_constraints-corrupted_5": 1,
+      "degraded/README.md_steps-removed_8": 1,
+      "degraded/README.md_constraints-corrupted_9": 1,
+      "degraded/INSTALLATION.md_steps-removed_14": 1,
+      "degraded/TESTING.md_steps-removed_17": 1,
+      "degraded/TESTING.md_constraints-corrupted_18": 1,
+      "degraded/lean4-memories_steps-removed_134": 1,
+      "degraded/lean4-memories_constraints-corrupted_135": 1,
+      "degraded/lean4-theorem-proving_steps-removed_148": 1,
+      "degraded/lean4-theorem-proving_constraints-corrupted_149": 1
+    },
+    "core_gt_ids": [
+      "gt/lean4-memories",
+      "gt/lean4-theorem-proving"
+    ],
+    "auxiliary_gt_ids": [
+      "gt/INSTALLATION.md",
+      "gt/LICENSE",
+      "gt/README.md",
+      "gt/TESTING.md"
+    ],
+    "task_type": "mixed"
+  },
+  "manufacturing-codebook-normalization": {
+    "gt_skill_ids": [
+      "gt/manufacturing-failure-reason-codebook-normalization",
+      "gt/reference.md"
+    ],
+    "relevance": {
+      "gt/manufacturing-failure-reason-codebook-normalization": 3,
+      "gt/reference.md": 3,
+      "degraded/manufacturing-failure-reason-codebook-normalization_steps-removed_142": 1,
+      "degraded/manufacturing-failure-reason-codebook-normalization_constraints-corrupted_143": 1,
+      "degraded/reference.md_steps-removed_256": 1,
+      "degraded/reference.md_constraints-corrupted_257": 1
+    },
+    "core_gt_ids": [
+      "gt/manufacturing-failure-reason-codebook-normalization"
+    ],
+    "auxiliary_gt_ids": [
+      "gt/reference.md"
+    ],
+    "task_type": "mixed"
+  },
+  "manufacturing-equipment-maintenance": {
+    "gt_skill_ids": [
+      "gt/reference.md",
+      "gt/reflow-profile-compliance-toolkit",
+      "gt/reflow_machine_maintenance_guidance"
+    ],
+    "relevance": {
+      "gt/reference.md": 3,
+      "gt/reflow-profile-compliance-toolkit": 3,
+      "gt/reflow_machine_maintenance_guidance": 3,
+      "degraded/reference.md_steps-removed_256": 1,
+      "degraded/reference.md_constraints-corrupted_257": 1,
+      "degraded/reflow-profile-compliance-toolkit_steps-removed_258": 1,
+      "degraded/reflow-profile-compliance-toolkit_constraints-corrupted_259": 1,
+      "degraded/reflow_machine_maintenance_guidance_steps-removed_260": 1,
+      "degraded/reflow_machine_maintenance_guidance_constraints-corrupted_261": 1
+    },
+    "core_gt_ids": [
+      "gt/reflow-profile-compliance-toolkit",
+      "gt/reflow_machine_maintenance_guidance"
+    ],
+    "auxiliary_gt_ids": [
+      "gt/reference.md"
+    ],
+    "task_type": "mixed"
+  },
+  "manufacturing-fjsp-optimization": {
+    "gt_skill_ids": [
+      "gt/fjsp-baseline-repair-with-downtime-and-policy",
+      "gt/reference.md"
+    ],
+    "relevance": {
+      "gt/fjsp-baseline-repair-with-downtime-and-policy": 3,
+      "gt/reference.md": 3,
+      "degraded/fjsp-baseline-repair-with-downtime-and-policy_steps-removed_97": 1,
+      "degraded/fjsp-baseline-repair-with-downtime-and-policy_constraints-corrupted_98": 1,
+      "degraded/reference.md_steps-removed_256": 1,
+      "degraded/reference.md_constraints-corrupted_257": 1
+    },
+    "core_gt_ids": [
+      "gt/fjsp-baseline-repair-with-downtime-and-policy"
+    ],
+    "auxiliary_gt_ids": [
+      "gt/reference.md"
+    ],
+    "task_type": "mixed"
+  },
+  "mario-coin-counting": {
+    "gt_skill_ids": [
+      "gt/ffmpeg",
+      "gt/image_editing",
+      "gt/object_counter"
+    ],
+    "relevance": {
+      "gt/ffmpeg": 3,
+      "gt/image_editing": 3,
+      "gt/object_counter": 3,
+      "degraded/ffmpeg_steps-removed_68": 1,
+      "degraded/ffmpeg_constraints-corrupted_69": 1,
+      "degraded/image_editing_steps-removed_126": 1,
+      "degraded/object_counter_steps-removed_168": 1,
+      "degraded/object_counter_constraints-corrupted_169": 1
+    },
+    "core_gt_ids": [
+      "gt/ffmpeg",
+      "gt/image_editing",
+      "gt/object_counter"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "mars-clouds-clustering": {
+    "gt_skill_ids": [
+      "gt/custom-distance-metrics",
+      "gt/parallel-processing",
+      "gt/pareto-optimization"
+    ],
+    "relevance": {
+      "gt/custom-distance-metrics": 3,
+      "gt/parallel-processing": 3,
+      "gt/pareto-optimization": 3,
+      "degraded/custom-distance-metrics_steps-removed_31": 1,
+      "degraded/custom-distance-metrics_constraints-corrupted_32": 1,
+      "degraded/parallel-processing_steps-removed_202": 1,
+      "degraded/parallel-processing_constraints-corrupted_203": 1,
+      "degraded/pareto-optimization_constraints-corrupted_210": 1
+    },
+    "core_gt_ids": [
+      "gt/custom-distance-metrics",
+      "gt/parallel-processing",
+      "gt/pareto-optimization"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "mhc-layer-impl": {
+    "gt_skill_ids": [
+      "gt/mhc-algorithm",
+      "gt/modal-gpu",
+      "gt/nanogpt-training"
+    ],
+    "relevance": {
+      "gt/mhc-algorithm": 3,
+      "gt/modal-gpu": 3,
+      "gt/nanogpt-training": 3,
+      "degraded/modal-gpu_steps-removed_170": 1,
+      "degraded/modal-gpu_constraints-corrupted_171": 1,
+      "degraded/mhc-algorithm_steps-removed_178": 1,
+      "degraded/mhc-algorithm_constraints-corrupted_179": 1,
+      "degraded/nanogpt-training_steps-removed_184": 1,
+      "degraded/nanogpt-training_constraints-corrupted_185": 1
+    },
+    "core_gt_ids": [
+      "gt/mhc-algorithm",
+      "gt/modal-gpu",
+      "gt/nanogpt-training"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "multilingual-video-dubbing": {
+    "gt_skill_ids": [
+      "gt/ffmpeg-audio-processing",
+      "gt/ffmpeg-format-conversion",
+      "gt/ffmpeg-media-info",
+      "gt/ffmpeg-video-editing",
+      "gt/ffmpeg-video-filters",
+      "gt/text-to-speech"
+    ],
+    "relevance": {
+      "gt/ffmpeg-audio-processing": 3,
+      "gt/ffmpeg-format-conversion": 3,
+      "gt/ffmpeg-media-info": 3,
+      "gt/ffmpeg-video-editing": 3,
+      "gt/ffmpeg-video-filters": 3,
+      "gt/text-to-speech": 3,
+      "degraded/ffmpeg-media-info_steps-removed_74": 1,
+      "degraded/ffmpeg-media-info_constraints-corrupted_75": 1,
+      "degraded/ffmpeg-format-conversion_steps-removed_78": 1,
+      "degraded/ffmpeg-format-conversion_constraints-corrupted_79": 1,
+      "degraded/ffmpeg-audio-processing_steps-removed_82": 1,
+      "degraded/ffmpeg-audio-processing_constraints-corrupted_83": 1,
+      "degraded/ffmpeg-video-editing_steps-removed_84": 1,
+      "degraded/ffmpeg-video-editing_constraints-corrupted_85": 1,
+      "degraded/ffmpeg-video-filters_steps-removed_88": 1,
+      "degraded/ffmpeg-video-filters_constraints-corrupted_89": 1,
+      "degraded/text-to-speech_steps-removed_318": 1,
+      "degraded/text-to-speech_constraints-corrupted_319": 1
+    },
+    "core_gt_ids": [
+      "gt/ffmpeg-audio-processing",
+      "gt/ffmpeg-format-conversion",
+      "gt/ffmpeg-media-info",
+      "gt/ffmpeg-video-editing",
+      "gt/ffmpeg-video-filters",
+      "gt/text-to-speech"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "offer-letter-generator": {
+    "gt_skill_ids": [
+      "gt/docx"
+    ],
+    "relevance": {
+      "gt/docx": 3,
+      "degraded/docx_steps-removed_46": 1,
+      "degraded/docx_constraints-corrupted_47": 1
+    },
+    "core_gt_ids": [],
+    "auxiliary_gt_ids": [
+      "gt/docx"
+    ],
+    "task_type": "generic_only"
+  },
+  "organize-messy-files": {
+    "gt_skill_ids": [
+      "gt/docx",
+      "gt/file-organizer",
+      "gt/pdf",
+      "gt/planning-with-files",
+      "gt/pptx"
+    ],
+    "relevance": {
+      "gt/docx": 3,
+      "gt/file-organizer": 3,
+      "gt/pdf": 3,
+      "gt/planning-with-files": 3,
+      "gt/pptx": 3,
+      "degraded/docx_steps-removed_46": 1,
+      "degraded/docx_constraints-corrupted_47": 1,
+      "degraded/file-organizer_steps-removed_92": 1,
+      "degraded/pdf_steps-removed_213": 1,
+      "degraded/pptx_steps-removed_216": 1,
+      "degraded/pptx_constraints-corrupted_217": 1,
+      "degraded/planning-with-files_steps-removed_229": 1,
+      "degraded/planning-with-files_constraints-corrupted_230": 1
+    },
+    "core_gt_ids": [
+      "gt/file-organizer",
+      "gt/planning-with-files"
+    ],
+    "auxiliary_gt_ids": [
+      "gt/docx",
+      "gt/pdf",
+      "gt/pptx"
+    ],
+    "task_type": "mixed"
+  },
+  "paper-anonymizer": {
+    "gt_skill_ids": [
+      "gt/academic-pdf-redaction",
+      "gt/pdf"
+    ],
+    "relevance": {
+      "gt/academic-pdf-redaction": 3,
+      "gt/pdf": 3,
+      "degraded/academic-pdf-redaction_steps-removed_6": 1,
+      "degraded/academic-pdf-redaction_constraints-corrupted_7": 1,
+      "degraded/pdf_steps-removed_213": 1
+    },
+    "core_gt_ids": [
+      "gt/academic-pdf-redaction"
+    ],
+    "auxiliary_gt_ids": [
+      "gt/pdf"
+    ],
+    "task_type": "mixed"
+  },
+  "parallel-tfidf-search": {
+    "gt_skill_ids": [
+      "gt/memory-optimization",
+      "gt/python-parallelization",
+      "gt/workload-balancing"
+    ],
+    "relevance": {
+      "gt/memory-optimization": 3,
+      "gt/python-parallelization": 3,
+      "gt/workload-balancing": 3,
+      "degraded/memory-optimization_steps-removed_166": 1,
+      "degraded/memory-optimization_constraints-corrupted_167": 1,
+      "degraded/python-parallelization_steps-removed_223": 1,
+      "degraded/python-parallelization_constraints-corrupted_224": 1,
+      "degraded/workload-balancing_steps-removed_355": 1
+    },
+    "core_gt_ids": [
+      "gt/memory-optimization",
+      "gt/python-parallelization",
+      "gt/workload-balancing"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "pddl-tpp-planning": {
+    "gt_skill_ids": [
+      "gt/pddl-skills"
+    ],
+    "relevance": {
+      "gt/pddl-skills": 3,
+      "degraded/pddl-skills_steps-removed_211": 1,
+      "degraded/pddl-skills_constraints-corrupted_212": 1
+    },
+    "core_gt_ids": [
+      "gt/pddl-skills"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "pdf-excel-diff": {
+    "gt_skill_ids": [
+      "gt/pdf",
+      "gt/xlsx"
+    ],
+    "relevance": {
+      "gt/pdf": 3,
+      "gt/xlsx": 3,
+      "degraded/pdf_steps-removed_213": 1,
+      "degraded/xlsx_steps-removed_356": 1,
+      "degraded/xlsx_constraints-corrupted_357": 1
+    },
+    "core_gt_ids": [],
+    "auxiliary_gt_ids": [
+      "gt/pdf",
+      "gt/xlsx"
+    ],
+    "task_type": "generic_only"
+  },
+  "pedestrian-traffic-counting": {
+    "gt_skill_ids": [
+      "gt/gemini-count-in-video",
+      "gt/gemini-video-understanding",
+      "gt/gpt-multimodal",
+      "gt/video-frame-extraction"
+    ],
+    "relevance": {
+      "gt/gemini-count-in-video": 3,
+      "gt/gemini-video-understanding": 3,
+      "gt/gpt-multimodal": 3,
+      "gt/video-frame-extraction": 3,
+      "degraded/gemini-count-in-video_constraints-corrupted_103": 1,
+      "degraded/gemini-video-understanding_steps-removed_105": 1,
+      "degraded/gemini-video-understanding_constraints-corrupted_106": 1,
+      "degraded/gpt-multimodal_steps-removed_154": 1,
+      "degraded/gpt-multimodal_constraints-corrupted_155": 1,
+      "degraded/video-frame-extraction_steps-removed_340": 1,
+      "degraded/video-frame-extraction_constraints-corrupted_341": 1
+    },
+    "core_gt_ids": [
+      "gt/gemini-count-in-video",
+      "gt/gemini-video-understanding",
+      "gt/gpt-multimodal",
+      "gt/video-frame-extraction"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "pg-essay-to-audiobook": {
+    "gt_skill_ids": [
+      "gt/audiobook",
+      "gt/elevenlabs-tts",
+      "gt/gtts",
+      "gt/openai-tts"
+    ],
+    "relevance": {
+      "gt/audiobook": 3,
+      "gt/elevenlabs-tts": 3,
+      "gt/gtts": 3,
+      "gt/openai-tts": 3,
+      "degraded/elevenlabs-tts_steps-removed_54": 1,
+      "degraded/elevenlabs-tts_constraints-corrupted_55": 1,
+      "degraded/gtts_steps-removed_117": 1,
+      "degraded/gtts_constraints-corrupted_118": 1,
+      "degraded/openai-tts_steps-removed_196": 1,
+      "degraded/openai-tts_constraints-corrupted_197": 1
+    },
+    "core_gt_ids": [
+      "gt/audiobook",
+      "gt/elevenlabs-tts",
+      "gt/gtts",
+      "gt/openai-tts"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "powerlifting-coef-calc": {
+    "gt_skill_ids": [
+      "gt/powerlifting",
+      "gt/senior-data-scientist",
+      "gt/xlsx"
+    ],
+    "relevance": {
+      "gt/powerlifting": 3,
+      "gt/senior-data-scientist": 3,
+      "gt/xlsx": 3,
+      "degraded/powerlifting_steps-removed_219": 1,
+      "degraded/powerlifting_constraints-corrupted_220": 1,
+      "degraded/senior-data-scientist_steps-removed_282": 1,
+      "degraded/senior-data-scientist_constraints-corrupted_283": 1,
+      "degraded/xlsx_steps-removed_356": 1,
+      "degraded/xlsx_constraints-corrupted_357": 1
+    },
+    "core_gt_ids": [
+      "gt/powerlifting",
+      "gt/senior-data-scientist"
+    ],
+    "auxiliary_gt_ids": [
+      "gt/xlsx"
+    ],
+    "task_type": "mixed"
+  },
+  "pptx-reference-formatting": {
+    "gt_skill_ids": [
+      "gt/pptx"
+    ],
+    "relevance": {
+      "gt/pptx": 3,
+      "degraded/pptx_steps-removed_216": 1,
+      "degraded/pptx_constraints-corrupted_217": 1
+    },
+    "core_gt_ids": [],
+    "auxiliary_gt_ids": [
+      "gt/pptx"
+    ],
+    "task_type": "generic_only"
+  },
+  "protein-expression-analysis": {
+    "gt_skill_ids": [
+      "gt/xlsx"
+    ],
+    "relevance": {
+      "gt/xlsx": 3,
+      "degraded/xlsx_steps-removed_356": 1,
+      "degraded/xlsx_constraints-corrupted_357": 1
+    },
+    "core_gt_ids": [],
+    "auxiliary_gt_ids": [
+      "gt/xlsx"
+    ],
+    "task_type": "generic_only"
+  },
+  "python-scala-translation": {
+    "gt_skill_ids": [
+      "gt/python-scala-collections",
+      "gt/python-scala-functional",
+      "gt/python-scala-idioms",
+      "gt/python-scala-libraries",
+      "gt/python-scala-oop",
+      "gt/python-scala-syntax-mapping"
+    ],
+    "relevance": {
+      "gt/python-scala-collections": 3,
+      "gt/python-scala-functional": 3,
+      "gt/python-scala-idioms": 3,
+      "gt/python-scala-libraries": 3,
+      "gt/python-scala-oop": 3,
+      "gt/python-scala-syntax-mapping": 3,
+      "degraded/python-scala-idioms_steps-removed_227": 1,
+      "degraded/python-scala-idioms_constraints-corrupted_228": 1,
+      "degraded/python-scala-libraries_steps-removed_231": 1,
+      "degraded/python-scala-libraries_constraints-corrupted_232": 1,
+      "degraded/python-scala-collections_steps-removed_233": 1,
+      "degraded/python-scala-collections_constraints-corrupted_234": 1,
+      "degraded/python-scala-functional_constraints-corrupted_235": 1,
+      "degraded/python-scala-oop_constraints-corrupted_236": 1,
+      "degraded/python-scala-syntax-mapping_steps-removed_237": 1,
+      "degraded/python-scala-syntax-mapping_constraints-corrupted_238": 1
+    },
+    "core_gt_ids": [
+      "gt/python-scala-collections",
+      "gt/python-scala-functional",
+      "gt/python-scala-idioms",
+      "gt/python-scala-libraries",
+      "gt/python-scala-oop",
+      "gt/python-scala-syntax-mapping"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "quantum-numerical-simulation": {
+    "gt_skill_ids": [
+      "gt/qutip"
+    ],
+    "relevance": {
+      "gt/qutip": 3,
+      "degraded/qutip_steps-removed_264": 1,
+      "degraded/qutip_constraints-corrupted_265": 1
+    },
+    "core_gt_ids": [
+      "gt/qutip"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "r2r-mpc-control": {
+    "gt_skill_ids": [
+      "gt/finite-horizon-lqr",
+      "gt/integral-action-design",
+      "gt/mpc-horizon-tuning",
+      "gt/state-space-linearization"
+    ],
+    "relevance": {
+      "gt/finite-horizon-lqr": 3,
+      "gt/integral-action-design": 3,
+      "gt/mpc-horizon-tuning": 3,
+      "gt/state-space-linearization": 3,
+      "degraded/finite-horizon-lqr_steps-removed_86": 1,
+      "degraded/finite-horizon-lqr_constraints-corrupted_87": 1,
+      "degraded/integral-action-design_steps-removed_119": 1,
+      "degraded/integral-action-design_constraints-corrupted_120": 1,
+      "degraded/mpc-horizon-tuning_steps-removed_172": 1,
+      "degraded/mpc-horizon-tuning_constraints-corrupted_173": 1,
+      "degraded/state-space-linearization_steps-removed_294": 1,
+      "degraded/state-space-linearization_constraints-corrupted_295": 1
+    },
+    "core_gt_ids": [
+      "gt/finite-horizon-lqr",
+      "gt/integral-action-design",
+      "gt/mpc-horizon-tuning",
+      "gt/state-space-linearization"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "react-performance-debugging": {
+    "gt_skill_ids": [
+      "gt/browser-testing",
+      "gt/react-best-practices"
+    ],
+    "relevance": {
+      "gt/browser-testing": 3,
+      "gt/react-best-practices": 3,
+      "degraded/browser-testing_steps-removed_15": 1,
+      "degraded/browser-testing_constraints-corrupted_16": 1,
+      "degraded/react-best-practices_steps-removed_245": 1,
+      "degraded/react-best-practices_constraints-corrupted_246": 1
+    },
+    "core_gt_ids": [
+      "gt/browser-testing",
+      "gt/react-best-practices"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "reserves-at-risk-calc": {
+    "gt_skill_ids": [
+      "gt/xlsx"
+    ],
+    "relevance": {
+      "gt/xlsx": 3,
+      "degraded/xlsx_steps-removed_356": 1,
+      "degraded/xlsx_constraints-corrupted_357": 1
+    },
+    "core_gt_ids": [],
+    "auxiliary_gt_ids": [
+      "gt/xlsx"
+    ],
+    "task_type": "generic_only"
+  },
+  "sales-pivot-analysis": {
+    "gt_skill_ids": [
+      "gt/pdf",
+      "gt/xlsx"
+    ],
+    "relevance": {
+      "gt/pdf": 3,
+      "gt/xlsx": 3,
+      "degraded/pdf_steps-removed_213": 1,
+      "degraded/xlsx_steps-removed_356": 1,
+      "degraded/xlsx_constraints-corrupted_357": 1
+    },
+    "core_gt_ids": [],
+    "auxiliary_gt_ids": [
+      "gt/pdf",
+      "gt/xlsx"
+    ],
+    "task_type": "generic_only"
+  },
+  "scheduling-email-assistant": {
+    "gt_skill_ids": [
+      "gt/constraint-parser",
+      "gt/gmail-skill",
+      "gt/google-calendar-skill"
+    ],
+    "relevance": {
+      "gt/constraint-parser": 3,
+      "gt/gmail-skill": 3,
+      "gt/google-calendar-skill": 3,
+      "degraded/constraint-parser_steps-removed_20": 1,
+      "degraded/constraint-parser_constraints-corrupted_21": 1,
+      "degraded/gmail-skill_steps-removed_140": 1,
+      "degraded/gmail-skill_constraints-corrupted_141": 1,
+      "degraded/google-calendar-skill_steps-removed_144": 1,
+      "degraded/google-calendar-skill_constraints-corrupted_145": 1
+    },
+    "core_gt_ids": [
+      "gt/constraint-parser",
+      "gt/gmail-skill",
+      "gt/google-calendar-skill"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "sec-financial-report": {
+    "gt_skill_ids": [
+      "gt/13f-analyzer",
+      "gt/fuzzy-name-search"
+    ],
+    "relevance": {
+      "gt/13f-analyzer": 3,
+      "gt/fuzzy-name-search": 3,
+      "degraded/13f-analyzer_steps-removed_2": 1,
+      "degraded/13f-analyzer_constraints-corrupted_3": 1,
+      "degraded/fuzzy-name-search_steps-removed_94": 1,
+      "degraded/fuzzy-name-search_constraints-corrupted_95": 1
+    },
+    "core_gt_ids": [
+      "gt/13f-analyzer",
+      "gt/fuzzy-name-search"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "seismic-phase-picking": {
+    "gt_skill_ids": [
+      "gt/licenses",
+      "gt/obspy-data-api",
+      "gt/obspy-datacenter-client",
+      "gt/seisbench-model-api",
+      "gt/seismic-picker-selection"
+    ],
+    "relevance": {
+      "gt/licenses": 3,
+      "gt/obspy-data-api": 3,
+      "gt/obspy-datacenter-client": 3,
+      "gt/seisbench-model-api": 3,
+      "gt/seismic-picker-selection": 3,
+      "degraded/licenses_steps-removed_132": 1,
+      "degraded/obspy-datacenter-client_steps-removed_194": 1,
+      "degraded/obspy-datacenter-client_constraints-corrupted_195": 1,
+      "degraded/obspy-data-api_steps-removed_198": 1,
+      "degraded/obspy-data-api_constraints-corrupted_199": 1,
+      "degraded/seisbench-model-api_steps-removed_284": 1,
+      "degraded/seisbench-model-api_constraints-corrupted_285": 1,
+      "degraded/seismic-picker-selection_steps-removed_286": 1,
+      "degraded/seismic-picker-selection_constraints-corrupted_287": 1
+    },
+    "core_gt_ids": [
+      "gt/obspy-data-api",
+      "gt/obspy-datacenter-client",
+      "gt/seisbench-model-api",
+      "gt/seismic-picker-selection"
+    ],
+    "auxiliary_gt_ids": [
+      "gt/licenses"
+    ],
+    "task_type": "mixed"
+  },
+  "setup-fuzzing-py": {
+    "gt_skill_ids": [
+      "gt/discover-important-function",
+      "gt/fuzzing-python",
+      "gt/setup-env"
+    ],
+    "relevance": {
+      "gt/discover-important-function": 3,
+      "gt/fuzzing-python": 3,
+      "gt/setup-env": 3,
+      "degraded/discover-important-function_steps-removed_44": 1,
+      "degraded/discover-important-function_constraints-corrupted_45": 1,
+      "degraded/fuzzing-python_steps-removed_101": 1,
+      "degraded/fuzzing-python_constraints-corrupted_102": 1,
+      "degraded/setup-env_steps-removed_276": 1,
+      "degraded/setup-env_constraints-corrupted_277": 1
+    },
+    "core_gt_ids": [
+      "gt/discover-important-function",
+      "gt/fuzzing-python",
+      "gt/setup-env"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "shock-analysis-demand": {
+    "gt_skill_ids": [
+      "gt/xlsx"
+    ],
+    "relevance": {
+      "gt/xlsx": 3,
+      "degraded/xlsx_steps-removed_356": 1,
+      "degraded/xlsx_constraints-corrupted_357": 1
+    },
+    "core_gt_ids": [],
+    "auxiliary_gt_ids": [
+      "gt/xlsx"
+    ],
+    "task_type": "generic_only"
+  },
+  "shock-analysis-supply": {
+    "gt_skill_ids": [
+      "gt/xlsx"
+    ],
+    "relevance": {
+      "gt/xlsx": 3,
+      "degraded/xlsx_steps-removed_356": 1,
+      "degraded/xlsx_constraints-corrupted_357": 1
+    },
+    "core_gt_ids": [],
+    "auxiliary_gt_ids": [
+      "gt/xlsx"
+    ],
+    "task_type": "generic_only"
+  },
+  "simpo-code-reproduction": {
+    "gt_skill_ids": [
+      "gt/nlp-research-repo-package-installment",
+      "gt/pdf"
+    ],
+    "relevance": {
+      "gt/nlp-research-repo-package-installment": 3,
+      "gt/pdf": 3,
+      "degraded/nlp-research-repo-package-installment_steps-removed_176": 1,
+      "degraded/nlp-research-repo-package-installment_constraints-corrupted_177": 1,
+      "degraded/pdf_steps-removed_213": 1
+    },
+    "core_gt_ids": [
+      "gt/nlp-research-repo-package-installment"
+    ],
+    "auxiliary_gt_ids": [
+      "gt/pdf"
+    ],
+    "task_type": "mixed"
+  },
+  "software-dependency-audit": {
+    "gt_skill_ids": [
+      "gt/cvss-score-extraction",
+      "gt/trivy-offline-vulnerability-scanning",
+      "gt/vulnerability-csv-reporting"
+    ],
+    "relevance": {
+      "gt/cvss-score-extraction": 3,
+      "gt/trivy-offline-vulnerability-scanning": 3,
+      "gt/vulnerability-csv-reporting": 3,
+      "degraded/cvss-score-extraction_steps-removed_39": 1,
+      "degraded/cvss-score-extraction_constraints-corrupted_40": 1,
+      "degraded/trivy-offline-vulnerability-scanning_steps-removed_336": 1,
+      "degraded/trivy-offline-vulnerability-scanning_constraints-corrupted_337": 1,
+      "degraded/vulnerability-csv-reporting_steps-removed_353": 1,
+      "degraded/vulnerability-csv-reporting_constraints-corrupted_354": 1
+    },
+    "core_gt_ids": [
+      "gt/cvss-score-extraction",
+      "gt/trivy-offline-vulnerability-scanning",
+      "gt/vulnerability-csv-reporting"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "speaker-diarization-subtitles": {
+    "gt_skill_ids": [
+      "gt/automatic-speech-recognition",
+      "gt/multimodal-fusion",
+      "gt/speaker-clustering",
+      "gt/voice-activity-detection"
+    ],
+    "relevance": {
+      "gt/automatic-speech-recognition": 3,
+      "gt/multimodal-fusion": 3,
+      "gt/speaker-clustering": 3,
+      "gt/voice-activity-detection": 3,
+      "degraded/automatic-speech-recognition_steps-removed_10": 1,
+      "degraded/automatic-speech-recognition_constraints-corrupted_11": 1,
+      "degraded/multimodal-fusion_steps-removed_188": 1,
+      "degraded/multimodal-fusion_constraints-corrupted_189": 1,
+      "degraded/speaker-clustering_steps-removed_298": 1,
+      "degraded/speaker-clustering_constraints-corrupted_299": 1,
+      "degraded/voice-activity-detection_steps-removed_350": 1,
+      "degraded/voice-activity-detection_constraints-corrupted_351": 1
+    },
+    "core_gt_ids": [
+      "gt/automatic-speech-recognition",
+      "gt/multimodal-fusion",
+      "gt/speaker-clustering",
+      "gt/voice-activity-detection"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "spring-boot-jakarta-migration": {
+    "gt_skill_ids": [
+      "gt/hibernate-upgrade",
+      "gt/jakarta-namespace",
+      "gt/restclient-migration",
+      "gt/spring-boot-migration",
+      "gt/spring-security-6"
+    ],
+    "relevance": {
+      "gt/hibernate-upgrade": 3,
+      "gt/jakarta-namespace": 3,
+      "gt/restclient-migration": 3,
+      "gt/spring-boot-migration": 3,
+      "gt/spring-security-6": 3,
+      "degraded/hibernate-upgrade_steps-removed_121": 1,
+      "degraded/hibernate-upgrade_constraints-corrupted_122": 1,
+      "degraded/jakarta-namespace_steps-removed_133": 1,
+      "degraded/restclient-migration_steps-removed_270": 1,
+      "degraded/restclient-migration_constraints-corrupted_271": 1,
+      "degraded/spring-boot-migration_steps-removed_296": 1,
+      "degraded/spring-boot-migration_constraints-corrupted_297": 1,
+      "degraded/spring-security-6_steps-removed_300": 1,
+      "degraded/spring-security-6_constraints-corrupted_301": 1
+    },
+    "core_gt_ids": [
+      "gt/hibernate-upgrade",
+      "gt/jakarta-namespace",
+      "gt/restclient-migration",
+      "gt/spring-boot-migration",
+      "gt/spring-security-6"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "suricata-custom-exfil": {
+    "gt_skill_ids": [
+      "gt/pcap-triage-tshark",
+      "gt/suricata-offline-evejson",
+      "gt/suricata-rules-basics"
+    ],
+    "relevance": {
+      "gt/pcap-triage-tshark": 3,
+      "gt/suricata-offline-evejson": 3,
+      "gt/suricata-rules-basics": 3,
+      "degraded/pcap-triage-tshark_steps-removed_192": 1,
+      "degraded/pcap-triage-tshark_constraints-corrupted_193": 1,
+      "degraded/suricata-offline-evejson_steps-removed_302": 1,
+      "degraded/suricata-offline-evejson_constraints-corrupted_303": 1,
+      "degraded/suricata-rules-basics_steps-removed_308": 1,
+      "degraded/suricata-rules-basics_constraints-corrupted_309": 1
+    },
+    "core_gt_ids": [
+      "gt/pcap-triage-tshark",
+      "gt/suricata-offline-evejson",
+      "gt/suricata-rules-basics"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "syzkaller-ppdev-syzlang": {
+    "gt_skill_ids": [
+      "gt/syz-extract-constants",
+      "gt/syzkaller-build-loop",
+      "gt/syzlang-ioctl-basics"
+    ],
+    "relevance": {
+      "gt/syz-extract-constants": 3,
+      "gt/syzkaller-build-loop": 3,
+      "gt/syzlang-ioctl-basics": 3,
+      "degraded/syz-extract-constants_steps-removed_310": 1,
+      "degraded/syz-extract-constants_constraints-corrupted_311": 1,
+      "degraded/syzlang-ioctl-basics_steps-removed_312": 1,
+      "degraded/syzlang-ioctl-basics_constraints-corrupted_313": 1
+    },
+    "core_gt_ids": [
+      "gt/syz-extract-constants",
+      "gt/syzkaller-build-loop",
+      "gt/syzlang-ioctl-basics"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "taxonomy-tree-merge": {
+    "gt_skill_ids": [
+      "gt/hierarchical-taxonomy-clustering"
+    ],
+    "relevance": {
+      "gt/hierarchical-taxonomy-clustering": 3,
+      "degraded/hierarchical-taxonomy-clustering_steps-removed_124": 1,
+      "degraded/hierarchical-taxonomy-clustering_constraints-corrupted_125": 1
+    },
+    "core_gt_ids": [
+      "gt/hierarchical-taxonomy-clustering"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "threejs-structure-parser": {
+    "gt_skill_ids": [
+      "gt/obj-exporter",
+      "gt/threejs"
+    ],
+    "relevance": {
+      "gt/obj-exporter": 3,
+      "gt/threejs": 3,
+      "degraded/obj-exporter_steps-removed_186": 1,
+      "degraded/obj-exporter_constraints-corrupted_187": 1,
+      "degraded/threejs_steps-removed_322": 1,
+      "degraded/threejs_constraints-corrupted_323": 1
+    },
+    "core_gt_ids": [
+      "gt/obj-exporter",
+      "gt/threejs"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "threejs-to-obj": {
+    "gt_skill_ids": [
+      "gt/obj-exporter",
+      "gt/threejs"
+    ],
+    "relevance": {
+      "gt/obj-exporter": 3,
+      "gt/threejs": 3,
+      "degraded/obj-exporter_steps-removed_186": 1,
+      "degraded/obj-exporter_constraints-corrupted_187": 1,
+      "degraded/threejs_steps-removed_322": 1,
+      "degraded/threejs_constraints-corrupted_323": 1
+    },
+    "core_gt_ids": [
+      "gt/obj-exporter",
+      "gt/threejs"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "travel-planning": {
+    "gt_skill_ids": [
+      "gt/search-accommodations",
+      "gt/search-attractions",
+      "gt/search-cities",
+      "gt/search-driving-distance",
+      "gt/search-flights",
+      "gt/search-restaurants"
+    ],
+    "relevance": {
+      "gt/search-accommodations": 3,
+      "gt/search-attractions": 3,
+      "gt/search-cities": 3,
+      "gt/search-driving-distance": 3,
+      "gt/search-flights": 3,
+      "gt/search-restaurants": 3,
+      "degraded/search-accommodations_steps-removed_243": 1,
+      "degraded/search-accommodations_constraints-corrupted_244": 1,
+      "degraded/search-attractions_steps-removed_247": 1,
+      "degraded/search-attractions_constraints-corrupted_248": 1,
+      "degraded/search-flights_steps-removed_249": 1,
+      "degraded/search-flights_constraints-corrupted_250": 1,
+      "degraded/search-cities_steps-removed_251": 1,
+      "degraded/search-cities_constraints-corrupted_252": 1,
+      "degraded/search-driving-distance_steps-removed_253": 1,
+      "degraded/search-driving-distance_constraints-corrupted_254": 1,
+      "degraded/search-restaurants_steps-removed_262": 1,
+      "degraded/search-restaurants_constraints-corrupted_263": 1
+    },
+    "core_gt_ids": [
+      "gt/search-accommodations",
+      "gt/search-attractions",
+      "gt/search-cities",
+      "gt/search-driving-distance",
+      "gt/search-flights",
+      "gt/search-restaurants"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "trend-anomaly-causal-inference": {
+    "gt_skill_ids": [
+      "gt/data_cleaning",
+      "gt/did_causal_analysis",
+      "gt/feature_engineering",
+      "gt/time_series_anomaly_detection"
+    ],
+    "relevance": {
+      "gt/data_cleaning": 3,
+      "gt/did_causal_analysis": 3,
+      "gt/feature_engineering": 3,
+      "gt/time_series_anomaly_detection": 3,
+      "degraded/data_cleaning_steps-removed_35": 1,
+      "degraded/data_cleaning_constraints-corrupted_36": 1,
+      "degraded/did_causal_analysis_steps-removed_37": 1,
+      "degraded/did_causal_analysis_constraints-corrupted_38": 1,
+      "degraded/feature_engineering_steps-removed_72": 1,
+      "degraded/feature_engineering_constraints-corrupted_73": 1,
+      "degraded/time_series_anomaly_detection_steps-removed_326": 1,
+      "degraded/time_series_anomaly_detection_constraints-corrupted_327": 1
+    },
+    "core_gt_ids": [
+      "gt/data_cleaning",
+      "gt/did_causal_analysis",
+      "gt/feature_engineering",
+      "gt/time_series_anomaly_detection"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "video-filler-word-remover": {
+    "gt_skill_ids": [
+      "gt/ffmpeg-video-editing",
+      "gt/filler-word-processing",
+      "gt/whisper-transcription"
+    ],
+    "relevance": {
+      "gt/ffmpeg-video-editing": 3,
+      "gt/filler-word-processing": 3,
+      "gt/whisper-transcription": 3,
+      "degraded/ffmpeg-video-editing_steps-removed_84": 1,
+      "degraded/ffmpeg-video-editing_constraints-corrupted_85": 1,
+      "degraded/filler-word-processing_steps-removed_93": 1,
+      "degraded/whisper-transcription_steps-removed_344": 1,
+      "degraded/whisper-transcription_constraints-corrupted_345": 1
+    },
+    "core_gt_ids": [
+      "gt/ffmpeg-video-editing",
+      "gt/filler-word-processing",
+      "gt/whisper-transcription"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "video-silence-remover": {
+    "gt_skill_ids": [
+      "gt/audio-extractor",
+      "gt/energy-calculator",
+      "gt/pause-detector",
+      "gt/report-generator",
+      "gt/segment-combiner",
+      "gt/silence-detector",
+      "gt/video-processor"
+    ],
+    "relevance": {
+      "gt/audio-extractor": 3,
+      "gt/energy-calculator": 3,
+      "gt/pause-detector": 3,
+      "gt/report-generator": 3,
+      "gt/segment-combiner": 3,
+      "gt/silence-detector": 3,
+      "gt/video-processor": 3,
+      "degraded/audio-extractor_steps-removed_41": 1,
+      "degraded/audio-extractor_constraints-corrupted_42": 1,
+      "degraded/energy-calculator_steps-removed_52": 1,
+      "degraded/energy-calculator_constraints-corrupted_53": 1,
+      "degraded/pause-detector_steps-removed_200": 1,
+      "degraded/pause-detector_constraints-corrupted_201": 1,
+      "degraded/report-generator_steps-removed_241": 1,
+      "degraded/report-generator_constraints-corrupted_242": 1,
+      "degraded/segment-combiner_steps-removed_268": 1,
+      "degraded/segment-combiner_constraints-corrupted_269": 1,
+      "degraded/silence-detector_steps-removed_280": 1,
+      "degraded/silence-detector_constraints-corrupted_281": 1,
+      "degraded/video-processor_steps-removed_348": 1,
+      "degraded/video-processor_constraints-corrupted_349": 1
+    },
+    "core_gt_ids": [
+      "gt/audio-extractor",
+      "gt/energy-calculator",
+      "gt/pause-detector",
+      "gt/report-generator",
+      "gt/segment-combiner",
+      "gt/silence-detector",
+      "gt/video-processor"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "video-tutorial-indexer": {
+    "gt_skill_ids": [
+      "gt/speech-to-text"
+    ],
+    "relevance": {
+      "gt/speech-to-text": 3,
+      "degraded/speech-to-text_steps-removed_274": 1,
+      "degraded/speech-to-text_constraints-corrupted_275": 1
+    },
+    "core_gt_ids": [
+      "gt/speech-to-text"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "virtualhome-agent-planning": {
+    "gt_skill_ids": [
+      "gt/pddl-skills"
+    ],
+    "relevance": {
+      "gt/pddl-skills": 3,
+      "degraded/pddl-skills_steps-removed_211": 1,
+      "degraded/pddl-skills_constraints-corrupted_212": 1
+    },
+    "core_gt_ids": [
+      "gt/pddl-skills"
+    ],
+    "auxiliary_gt_ids": [],
+    "task_type": "clean"
+  },
+  "weighted-gdp-calc": {
+    "gt_skill_ids": [
+      "gt/xlsx"
+    ],
+    "relevance": {
+      "gt/xlsx": 3,
+      "degraded/xlsx_steps-removed_356": 1,
+      "degraded/xlsx_constraints-corrupted_357": 1
+    },
+    "core_gt_ids": [],
+    "auxiliary_gt_ids": [
+      "gt/xlsx"
+    ],
+    "task_type": "generic_only"
+  },
+  "xlsx-recover-data": {
+    "gt_skill_ids": [
+      "gt/data-reconciliation",
+      "gt/xlsx"
+    ],
+    "relevance": {
+      "gt/data-reconciliation": 3,
+      "gt/xlsx": 3,
+      "degraded/data-reconciliation_steps-removed_29": 1,
+      "degraded/data-reconciliation_constraints-corrupted_30": 1,
+      "degraded/xlsx_steps-removed_356": 1,
+      "degraded/xlsx_constraints-corrupted_357": 1
+    },
+    "core_gt_ids": [
+      "gt/data-reconciliation"
+    ],
+    "auxiliary_gt_ids": [
+      "gt/xlsx"
+    ],
+    "task_type": "mixed"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "project": "SkillRouter",
+  "updated_at": "2026-03-28",
+  "models": {
+    "embedding_0p6b": {
+      "name": "SkillRouter-Embedding-0.6B",
+      "public_model_url": "https://huggingface.co/pipizhao/SkillRouter-Embedding-0.6B"
+    },
+    "reranker_0p6b": {
+      "name": "SkillRouter-Reranker-0.6B",
+      "public_model_url": "https://huggingface.co/pipizhao/SkillRouter-Reranker-0.6B"
+    }
+  },
+  "datasets": {
+    "eval_core": {
+      "repo_path": "data/eval_core"
+    }
+  }
+}

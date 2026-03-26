@@ -1,0 +1,17 @@
+{
+  "3d-scan-calc": [
+    "gt/mesh-analysis",
+    "gt/obj-exporter",
+    "data/generate-3d-model"
+  ],
+  "adaptive-cruise-control": [
+    "gt/vehicle-dynamics",
+    "gt/pid-controller",
+    "gt/simulation-metrics"
+  ],
+  "azure-bgp-oscillation-route-leak": [
+    "gt/azure-bgp",
+    "data/routing-engineering",
+    "other/bgp-routing-protocol-zebbern-secops-cli-guides"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "dataset_name": "skillrouter-eval-core",
+  "tasks": {
+    "format": "jsonl",
+    "compression": "none",
+    "bytes": 148816,
+    "path": "tasks.jsonl",
+    "source_name": "tasks.jsonl"
+  },
+  "relevance": {
+    "format": "json",
+    "compression": "none",
+    "bytes": 61894,
+    "path": "relevance.json",
+    "source_name": "relevance.json"
+  },
+  "easy": {
+    "format": "jsonl",
+    "compression": "gzip",
+    "records": 78361,
+    "shard_size_bytes": 67108864,
+    "parts": [
+      {
+        "path": "easy/part-00000.jsonl.gz",
+        "records": 7419
+      },
+      {
+        "path": "easy/part-00001.jsonl.gz",
+        "records": 8270
+      },
+      {
+        "path": "easy/part-00002.jsonl.gz",
+        "records": 7880
+      },
+      {
+        "path": "easy/part-00003.jsonl.gz",
+        "records": 7748
+      },
+      {
+        "path": "easy/part-00004.jsonl.gz",
+        "records": 7747
+      },
+      {
+        "path": "easy/part-00005.jsonl.gz",
+        "records": 8568
+      },
+      {
+        "path": "easy/part-00006.jsonl.gz",
+        "records": 8609
+      },
+      {
+        "path": "easy/part-00007.jsonl.gz",
+        "records": 7884
+      },
+      {
+        "path": "easy/part-00008.jsonl.gz",
+        "records": 7951
+      },
+      {
+        "path": "easy/part-00009.jsonl.gz",
+        "records": 6285
+      }
+    ],
+    "source_name": "easy.jsonl"
+  },
+  "hard": {
+    "format": "jsonl",
+    "compression": "gzip",
+    "records": 79141,
+    "shard_size_bytes": 67108864,
+    "parts": [
+      {
+        "path": "hard/part-00000.jsonl.gz",
+        "records": 7419
+      },
+      {
+        "path": "hard/part-00001.jsonl.gz",
+        "records": 8270
+      },
+      {
+        "path": "hard/part-00002.jsonl.gz",
+        "records": 7880
+      },
+      {
+        "path": "hard/part-00003.jsonl.gz",
+        "records": 7748
+      },
+      {
+        "path": "hard/part-00004.jsonl.gz",
+        "records": 7747
+      },
+      {
+        "path": "hard/part-00005.jsonl.gz",
+        "records": 8568
+      },
+      {
+        "path": "hard/part-00006.jsonl.gz",
+        "records": 8609
+      },
+      {
+        "path": "hard/part-00007.jsonl.gz",
+        "records": 7884
+      },
+      {
+        "path": "hard/part-00008.jsonl.gz",
+        "records": 7951
+      },
+      {
+        "path": "hard/part-00009.jsonl.gz",
+        "records": 7065
+      }
+    ],
+    "source_name": "hard.jsonl"
+  }
+}
