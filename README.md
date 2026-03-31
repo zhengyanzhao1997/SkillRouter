@@ -23,6 +23,13 @@ Current agent systems usually expose only skill names and descriptions during se
 | Main result | 74.0% average Hit@1 |
 | Deployment target | Consumer hardware / local inference |
 
+## Released Models
+
+| Model | Role | Link |
+| --- | --- | --- |
+| `SkillRouter-Embedding-0.6B` | First-stage retrieval over the full skill pool | [pipizhao/SkillRouter-Embedding-0.6B](https://huggingface.co/pipizhao/SkillRouter-Embedding-0.6B) |
+| `SkillRouter-Reranker-0.6B` | Top-20 reranking with full skill text | [pipizhao/SkillRouter-Reranker-0.6B](https://huggingface.co/pipizhao/SkillRouter-Reranker-0.6B) |
+
 ## Quick Start
 
 ### Installation
