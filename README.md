@@ -1,7 +1,7 @@
 # SkillRouter
 
 <p align="center">
-  <strong>Retrieve-and-rerank skill selection for LLM agents at ~80K scale.</strong><br/>
+  <strong>Skill Routing for LLM agents at ~80K scale.</strong><br/>
   Public release with benchmark data, evaluation scripts, and open 0.6B models.
 </p>
 
