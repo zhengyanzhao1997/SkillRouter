@@ -148,12 +148,13 @@ Paper: [SkillRouter: Retrieve-and-Rerank Skill Selection for LLM Agents at Scale
 If you use this repository, benchmark, or released models in your work, please cite:
 
 ```bibtex
-@misc{zheng2026skillrouter,
-  doi = {10.48550/ARXIV.2603.22455},
-  url = {https://arxiv.org/abs/2603.22455},
-  author = {Zheng, YanZhao and Zhang, ZhenTao and Ma, Chao and Yu, YuanQiang and Zhu, JiHuan and Dong, Baohua and Zhu, Hangcheng},
-  title = {{SkillRouter}: Retrieve-and-Rerank Skill Selection for LLM Agents at Scale},
-  publisher = {arXiv},
-  year = {2026}
+@misc{zheng2026skillrouterskillroutingllm,
+      title={SkillRouter: Skill Routing for LLM Agents at Scale}, 
+      author={YanZhao Zheng and ZhenTao Zhang and Chao Ma and YuanQiang Yu and JiHuai Zhu and Yong Wu and Tianze Xu and Baohua Dong and Hangcheng Zhu and Ruohui Huang and Gang Yu},
+      year={2026},
+      eprint={2603.22455},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2603.22455}, 
 }
 ```
