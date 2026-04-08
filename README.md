@@ -143,7 +143,7 @@ The public evaluation release in this repository builds on upstream open-source 
 
 ## Paper and Citation
 
-Paper: [SkillRouter: Retrieve-and-Rerank Skill Selection for LLM Agents at Scale](https://arxiv.org/abs/2603.22455)
+Paper: [SkillRouter: Skill Routing for LLM Agents at Scale](https://arxiv.org/abs/2603.22455)
 
 If you use this repository, benchmark, or released models in your work, please cite:
 
