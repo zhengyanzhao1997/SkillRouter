@@ -4,11 +4,11 @@ This directory documents the public-release evaluation protocol.
 
 ## Benchmark Files
 
-The benchmark data itself lives under [../data/eval_core/](../data/eval_core/).
+The lightweight benchmark metadata lives under [../data/eval_core/](../data/eval_core/). The large skill-pool shards are hosted at [pipizhao/SkillRouter-Eval-Core](https://huggingface.co/datasets/pipizhao/SkillRouter-Eval-Core) so downloads do not depend on Git LFS.
 
 - `tasks.jsonl`: benchmark tasks
 - `relevance.json`: ground truth skill ids, graded relevance labels, and task type
-- `easy/`, `hard/`: gzip-sharded skill pools
+- `easy/`, `hard/`: gzip-sharded skill pools downloaded with `bash scripts/download_eval_data.sh`
 
 ## Default Scoring
 

@@ -43,6 +43,16 @@ pip install -r requirements.txt
 
 The scripts assume a CUDA-capable local machine. For larger runs, set `CUDA_VISIBLE_DEVICES` before invoking the shell wrappers.
 
+### Download Evaluation Data
+
+The large benchmark skill-pool shards are hosted on Hugging Face Datasets instead of Git LFS:
+
+```bash
+bash scripts/download_eval_data.sh
+```
+
+This restores `data/eval_core/easy/` and `data/eval_core/hard/` from [pipizhao/SkillRouter-Eval-Core](https://huggingface.co/datasets/pipizhao/SkillRouter-Eval-Core).
+
 ### One-Command Evaluation
 
 ```bash
@@ -108,7 +118,17 @@ The default pipeline reranks the top-20 retrieval candidates with `flat-full` pr
 
 ## Benchmark and Data
 
-This release includes the evaluation benchmark as GitHub-friendly `jsonl.gz` shards. All evaluation code in [src/](src/) accepts either a single JSONL file or a directory of `jsonl` or `jsonl.gz` shards.
+The evaluation benchmark is hosted on Hugging Face Datasets to avoid relying on Git LFS bandwidth:
+
+- [pipizhao/SkillRouter-Eval-Core](https://huggingface.co/datasets/pipizhao/SkillRouter-Eval-Core)
+
+Download it into the layout expected by the scripts:
+
+```bash
+bash scripts/download_eval_data.sh
+```
+
+This repository keeps the lightweight metadata files in `data/eval_core/` and downloads the large `jsonl.gz` skill-pool shards on demand. All evaluation code in [src/](src/) accepts either a single JSONL file or a directory of `jsonl` or `jsonl.gz` shards.
 
 - [Evaluation benchmark](data/eval_core/README.md): benchmark tasks, graded relevance labels, and the two benchmark tiers.
 - [Evaluation protocol](evaluation/README.md): prediction format and metric definitions.

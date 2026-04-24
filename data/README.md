@@ -1,6 +1,16 @@
 # Data Layout
 
-This directory contains the public evaluation benchmark for the SkillRouter release. The benchmark data is stored as GitHub-friendly `jsonl.gz` shards.
+This directory contains the public evaluation benchmark metadata for the SkillRouter release. The large skill-pool shards are hosted on Hugging Face Datasets:
+
+- [pipizhao/SkillRouter-Eval-Core](https://huggingface.co/datasets/pipizhao/SkillRouter-Eval-Core)
+
+Download the full benchmark into `data/eval_core`:
+
+```bash
+bash scripts/download_eval_data.sh
+```
+
+The downloaded benchmark skill pools are stored as `jsonl.gz` shards under `data/eval_core/easy/` and `data/eval_core/hard/`.
 
 ## Why Sharded `jsonl.gz`
 

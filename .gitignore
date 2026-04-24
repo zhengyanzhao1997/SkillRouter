@@ -13,6 +13,10 @@ venv/
 # Outputs
 outputs/
 
+# Downloaded benchmark shards
+data/eval_core/easy/
+data/eval_core/hard/
+
 # Temporary files
 .tmp/
 
@@ -26,3 +30,4 @@ outputs/
 # OS
 .DS_Store
 Thumbs.db
+.omx/

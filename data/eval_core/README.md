@@ -1,13 +1,23 @@
 # Evaluation Benchmark
 
-This directory contains the public-release evaluation benchmark.
+This directory contains the lightweight public-release evaluation benchmark metadata.
+
+The full benchmark, including the large `easy/` and `hard/` skill-pool shards, is available as a public Hugging Face Dataset:
+
+- [pipizhao/SkillRouter-Eval-Core](https://huggingface.co/datasets/pipizhao/SkillRouter-Eval-Core)
+
+To restore the full local benchmark without Git LFS:
+
+```bash
+bash scripts/download_eval_data.sh
+```
 
 ## Contents
 
 - `tasks.jsonl`
 - `relevance.json`
-- `easy/`
-- `hard/`
+- `easy/` (downloaded from Hugging Face)
+- `hard/` (downloaded from Hugging Face)
 - `manifest.json`
 
 ## Benchmark Structure
