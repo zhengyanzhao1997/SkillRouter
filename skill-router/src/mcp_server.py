@@ -12,10 +12,10 @@ Configure in ~/.claude/settings.json:
     "mcpServers": {
         "skill-router": {
             "command": "conda",
-            "args": ["run", "-n", "dl", "python3", "/path/to/src/mcp_server.py"],
+            "args": ["run", "-n", "dl", "python3", "/path/to/skill-router/src/mcp_server.py"],
             "env": {
-                "SKILLS_DIR": "/home/xhkzdepartedream/skills_pool",
-                "HF_HOME": "/home/xhkzdepartedream/.cache/huggingface",
+                "SKILLS_DIR": "/path/to/skills_pool",
+                "HF_HOME": "/path/to/huggingface_cache",
                 "HF_HUB_DISABLE_XET": "1"
             }
         }

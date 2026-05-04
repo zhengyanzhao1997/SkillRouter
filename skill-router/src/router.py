@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import sys
 import time
 from pathlib import Path
 
@@ -12,7 +13,10 @@ import yaml
 import torch
 import torch.nn.functional as F
 
-from src.common import (
+# Ensure the repo root is on sys.path so `from src.common import ...` works
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from src.common import (  # noqa: E402
     encode_texts,
     format_query,
     format_rerank_prompt,
@@ -305,7 +309,6 @@ class SkillRouter:
                 "rerank_score": round(rerank_score, 4),
             })
         return results
-
 
     def search_retrieval_only(self, query: str, top_k: int = 20) -> list[dict]:
         """Stage-1 only: Bi-Encoder retrieval without reranking."""
