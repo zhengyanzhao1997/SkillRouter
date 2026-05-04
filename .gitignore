@@ -31,3 +31,8 @@ data/eval_core/hard/
 .DS_Store
 Thumbs.db
 .omx/
+
+# Source paper (author's local files, not part of benchmark repo)
+paper/
+sections/
+figures/

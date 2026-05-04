@@ -4,3 +4,5 @@ numpy
 tqdm
 sentencepiece
 safetensors
+pyyaml
+mcp
