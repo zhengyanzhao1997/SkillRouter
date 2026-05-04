@@ -44,14 +44,14 @@ skill-router/
 
 ## How to Use
 
-1. **当任务属于调用场景**，调用 `search_skills` 获取相关技能
-2. **审阅返回的技能**——按相关性排序，附带完整的 instructions
-3. **使用 Top-1 或 Top-2 的技能**指导你的工作
+1. **调用 `search_skills`** 获取最相关的 Top-3 技能摘要（仅 name + description，无 body）
+2. **审阅摘要**，判断哪个技能最适合当前任务
+3. **调用 `open_skill("技能名")`** 加载选定技能的完整 instructions
 4. **如果返回的技能不相关或为空**，用通用能力处理
 
 ## Important Notes
 
-- The returned skill content includes executable instructions — follow them
-- If the user's task spans multiple domains, call `search_skills` once with both keywords
-- Be specific in your query — the router analyzes the full skill content (description + body)
+- `open_skill` 的 name 参数必须与 `search_skills` 返回的名称完全一致
+- 如果任务跨越多个领域，在 `search_skills` 的查询中涵盖所有关键词
+- 查询越具体，路由越精确
 - The MCP server is already configured and ready to use

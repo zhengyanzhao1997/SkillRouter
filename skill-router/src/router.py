@@ -236,10 +236,11 @@ class SkillRouter:
                 p.unlink(missing_ok=True)
 
     @torch.no_grad()
-    def search(self, query: str, top_k: int | None = None) -> list[dict]:
+    def search(self, query: str, top_k: int | None = None,
+               include_body: bool = False) -> list[dict]:
         """Route a query to the most relevant skills.
 
-        Returns top_k skills with their name, description, body, and scores.
+        Returns top_k skills with their name, description, scores, and optionally body.
         """
         k = top_k or self.final_top_k
         if self.skill_embeddings is None:
@@ -300,15 +301,29 @@ class SkillRouter:
 
         results = []
         for skill, rerank_score, retrieval_score in ranked[:k]:
-            results.append({
+            entry = {
                 "skill_id": skill["skill_id"],
                 "name": skill["name"],
                 "description": skill["description"],
-                "body": skill["body"],
                 "retrieval_score": round(retrieval_score, 4),
                 "rerank_score": round(rerank_score, 4),
-            })
+            }
+            if include_body:
+                entry["body"] = skill["body"]
+            results.append(entry)
         return results
+
+    def get_skill(self, name: str) -> dict | None:
+        """Look up a single skill by name and return its full content."""
+        for s in self.skills:
+            if s["name"] == name:
+                return {
+                    "skill_id": s["skill_id"],
+                    "name": s["name"],
+                    "description": s["description"],
+                    "body": s["body"],
+                }
+        return None
 
     def search_retrieval_only(self, query: str, top_k: int = 20) -> list[dict]:
         """Stage-1 only: Bi-Encoder retrieval without reranking."""
